@@ -20,35 +20,39 @@ public class ControlesCenaDois : MonoBehaviour
         }
     }
 
+    // ISSO AQUI AGORA É AUTOMÁTICO
     public void Receber(string[] dados)
     {
-        // 1. Pega a palavra e limpa (tira o \n que vem do println do Arduino)
+        // 1. Pega a palavra que você digitou no teclado do Arduino
         string palavraVinda = dados[0].Trim().ToUpper();
         recebidos.text = palavraVinda;
 
-        // 2. Procura o script do Jogo na cena
-        JogoController jogo = FindFirstObjectByType<JogoController>();
+        // 2. Acha o script do jogo na cena
+        JogoController jogoAtivo = FindFirstObjectByType<JogoController>();
 
-        if (jogo != null)
+        if (jogoAtivo != null)
         {
-            // Injeta a palavra no input e manda verificar
-            jogo.inputField.text = palavraVinda;
-            jogo.VerificarResposta();
+            // 3. Injeta a palavra no campo de texto do jogo
+            jogoAtivo.inputField.text = palavraVinda;
 
-            // 3. Verifica o resultado para mandar pro LED do Arduino
-            // Se o texto de dica mudou para "ACERTOU!"
-            if (jogo.textDica.text.Contains("ACERTOU"))
+            // 4. Manda o jogo conferir a resposta (computar)
+            jogoAtivo.VerificarResposta();
+
+            // 5. CHECAGEM AUTOMÁTICA DO RESULTADO
+            // O JogoController muda o texto da Dica quando você acerta ou erra.
+            // Vamos ler esse texto e mandar o comando pro Arduino NA HORA.
+
+            if (jogoAtivo.textDica.text.Contains("ACERTOU"))
             {
-                Enviar("CERTO"); // Liga LED Verde (Pino 12)
+                Enviar("CERTO\n"); // Manda pro Arduino ligar o Verde
             }
-            else if (jogo.textDica.text.Contains("ERROU"))
+            else if (jogoAtivo.textDica.text.Contains("ERROU"))
             {
-                Enviar("ERRADO"); // Liga LED Vermelho (Pino 13)
+                Enviar("ERRADO\n"); // Manda pro Arduino ligar o Vermelho
             }
         }
     }
 
-    // ESSA FUNÇÃO PRECISA EXISTIR PARA O "RECEBER" ACIMA FUNCIONAR
     public void Enviar(string dados)
     {
         if (Enviador != null)
