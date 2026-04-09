@@ -20,7 +20,7 @@ public class ControlesCenaDois : MonoBehaviour
         }
     }
 
-    // ISSO AQUI AGORA É AUTOMÁTICO
+   
     public void Receber(string[] dados)
     {
         // 1. Pega a palavra que você digitou no teclado do Arduino

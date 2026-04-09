@@ -15,7 +15,7 @@ public class Trocarteladotemaporcasual : MonoBehaviour
 
     public void IrParaJogo()
     {
-        SceneManager.LoadScene("2_BluetoothLowEnergyExample");
+        SceneManager.LoadScene("Jogo");
     }
 
     public void BluetoothManager()

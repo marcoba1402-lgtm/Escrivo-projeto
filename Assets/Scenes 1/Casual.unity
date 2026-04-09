@@ -338,7 +338,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5179073809476365421, guid: 511c9b660abc6ec4398932b8c0829a30, type: 3}
+  m_Sprite: {fileID: 5179073809476365421, guid: 511c9b660abc6ec4398932b8c0829a30,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -413,7 +414,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4688466036798408742, guid: 9926d0deb097928418d7e61970906333, type: 3}
+  m_Sprite: {fileID: 4688466036798408742, guid: 9926d0deb097928418d7e61970906333,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -490,8 +492,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Escolha entre os modos:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
-  m_sharedMaterial: {fileID: -8749083201518482155, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
+  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -628,8 +631,9 @@ MonoBehaviour:
   m_text: "Teste suas habilidades Individualmente e tente conseguir  muitos pontos
     \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
-  m_sharedMaterial: {fileID: -8749083201518482155, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
+  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -895,7 +899,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2840533211225097889, guid: db05aab537a706447908953ac5b7ec2c, type: 3}
+  m_Sprite: {fileID: 2840533211225097889, guid: db05aab537a706447908953ac5b7ec2c,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1027,7 +1032,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5226338905809536063, guid: c2157d1fce59e98479c2f7890dcb8de4, type: 3}
+  m_Sprite: {fileID: -5226338905809536063, guid: c2157d1fce59e98479c2f7890dcb8de4,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1159,7 +1165,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2278566297644842510, guid: bde0cd5ccbb49be41ae30ca20b4eddfd, type: 3}
+  m_Sprite: {fileID: -2278566297644842510, guid: bde0cd5ccbb49be41ae30ca20b4eddfd,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1524,7 +1531,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8040424227606145505, guid: 5ac1a49089a5c9e439cb6a29e9e90d49, type: 3}
+  m_Sprite: {fileID: -8040424227606145505, guid: 5ac1a49089a5c9e439cb6a29e9e90d49,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1576,17 +1584,28 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
@@ -1680,8 +1699,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Casual
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
-  m_sharedMaterial: {fileID: -8749083201518482155, guid: 20d9fffd34112284eabf6e9fa9ab148c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
+  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
