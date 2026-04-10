@@ -1,4 +1,4 @@
-using TMPro;
+ï»¿using TMPro;
 using UnityEngine;
 
 public class Gameplay : MonoBehaviour
@@ -7,7 +7,7 @@ public class Gameplay : MonoBehaviour
 
 
 
-    [Header("Configuração do Jogo")]
+    [Header("ConfiguraÃ§Ã£o do Jogo")]
     public string palavraCorreta = "ARDUINO"; // Coloque a resposta certa aqui
 
     [SerializeField] TextMeshProUGUI textoDica; // Arraste seu texto de dica aqui
@@ -28,11 +28,11 @@ public class Gameplay : MonoBehaviour
     public void PalavraVinda(string palavraVinda)
     {
         textoDica.text = "...";
-        // 2. Faz a comparação NA HORA
+        // 2. Faz a comparaÃ§Ã£o NA HORA
         if (palavraVinda == palavraCorreta.ToUpper())
         {
             // ACERTOU
-            textoDica.text = "VOCÊ ACERTOU!";
+            textoDica.text = "VOCÃŠ ACERTOU!";
             textoDica.color = Color.green;
 
             controlesCenaDois.Enviar("CERTO\n"); // Manda o comando pro LED Verde

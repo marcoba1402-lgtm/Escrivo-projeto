@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes 1/Inicio.unity
     guid: afabfe1a0b665c045ae3c8fa1aac3a09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes 1/Temas.unity
     guid: cab7734f20cfc5647bbc9619157805d3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/1_InicialVerificaPermissoes.unity
     guid: e7234f7777523f34885361b0c264ed53
   - enabled: 1
@@ -19,20 +19,20 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/3_Cena2.unity
-    guid: 64688f522278b4c4bb77dfd00c49215d
-  - enabled: 1
+    guid: ca23f0b21b6e4cd4e85be67271577b19
+  - enabled: 0
     path: Assets/Scenes/4_PermissoesNegadas.unity
     guid: 53735e0c500b5544688ba62a0f6a284e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes 1/Casual.unity
     guid: c6d1647ecfe90754881455ee3e310f2b
   - enabled: 0
     path: Assets/Scenes 1/Jogo.unity
     guid: a5abe0a84df91b44eaf6e48d5930f6bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes 1/Vitoria.unity
     guid: b36b2422929f2894ba2260ad0a152df5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes 1/Derrota.unity
     guid: 4e408369fbb14374ca0072bd1aac6869
   m_configObjects:
