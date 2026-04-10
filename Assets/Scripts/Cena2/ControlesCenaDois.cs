@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class ControlesCenaDois : MonoBehaviour
 {
-    [SerializeField]
-    TextMeshProUGUI recebidos;
+    [Header("Configurações de UI")]
+    [SerializeField] TextMeshProUGUI recebidos;
 
-    Action<String> Enviador;
+
+    [SerializeField] TextMeshProUGUI textoDica;
+
+    // Ação para enviar dados de volta para o Arduino
+    Action<string> Enviador;
+
+    public Gameplay gameplay;
 
     void Start()
     {
+        // Conecta com o script de Bluetooth/Comunicação
         GameObject gm = GameObject.Find("Comunicacao");
         if (gm != null)
         {
@@ -20,44 +27,26 @@ public class ControlesCenaDois : MonoBehaviour
         }
     }
 
-   
+    // Chamado toda vez que você digita no Arduino e envia
     public void Receber(string[] dados)
     {
-        // 1. Pega a palavra que você digitou no teclado do Arduino
+        // 1. Pega o que veio do Arduino e limpa espaços
         string palavraVinda = dados[0].Trim().ToUpper();
         recebidos.text = palavraVinda;
+        textoDica.text = "ok";
 
-        // 2. Acha o script do jogo na cena
-        JogoController jogoAtivo = FindFirstObjectByType<JogoController>();
-
-        if (jogoAtivo != null)
-        {
-            // 3. Injeta a palavra no campo de texto do jogo
-            jogoAtivo.inputField.text = palavraVinda;
-
-            // 4. Manda o jogo conferir a resposta (computar)
-            jogoAtivo.VerificarResposta();
-
-            // 5. CHECAGEM AUTOMÁTICA DO RESULTADO
-            // O JogoController muda o texto da Dica quando você acerta ou erra.
-            // Vamos ler esse texto e mandar o comando pro Arduino NA HORA.
-
-            if (jogoAtivo.textDica.text.Contains("ACERTOU"))
-            {
-                Enviar("CERTO\n"); // Manda pro Arduino ligar o Verde
-            }
-            else if (jogoAtivo.textDica.text.Contains("ERROU"))
-            {
-                Enviar("ERRADO\n"); // Manda pro Arduino ligar o Vermelho
-            }
-        }
+        gameplay.PalavraVinda( palavraVinda);
+       
     }
+   
 
-    public void Enviar(string dados)
+    // Função que despacha a mensagem para o Bluetooth
+    public void Enviar(string comando)
     {
         if (Enviador != null)
         {
-            Enviador(dados);
+            Enviador(comando);
+            Debug.Log("Enviado para o Arduino: " + comando);
         }
     }
 }
