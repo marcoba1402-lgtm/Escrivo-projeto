@@ -14,7 +14,7 @@ public class TelaDerrota : MonoBehaviour
 
     public void JogarNovamente()
     {
-        SceneManager.LoadScene("Jogo");
+        SceneManager.LoadScene("3_Cena2");
     }
 
     public void VoltarTemas()
