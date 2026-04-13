@@ -26,8 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 1/Casual.unity
     guid: c6d1647ecfe90754881455ee3e310f2b
-  - enabled: 0
-    path: Assets/Scenes 1/Jogo.unity
+  - enabled: 1
+    path: Assets/Scenes 1/Tutorial.unity
     guid: a5abe0a84df91b44eaf6e48d5930f6bf
   - enabled: 1
     path: Assets/Scenes 1/Vitoria.unity
