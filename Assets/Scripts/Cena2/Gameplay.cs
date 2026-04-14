@@ -343,7 +343,7 @@ public class Gameplay : MonoBehaviour
         {"X","Instrumento","XILOFONE","instrumento de percussao","tem barras de madeira","toca com baqueta"},
         {"Z","Animal","ZEBRA","equino listrado","vive na savana","listras pretas e brancas"},
         {"Z","Lugar","ZOOLOGICO","parque de animais","tem especies diversas","visitado por familias"},
-        {"Z","Objeto","ZEPELIM","aeronave gigante","flutua com gas","usada no seculo XX"}
+        {"Z","Veículo","ZEPELIM","aeronave gigante","flutua com gas","usada no seculo XX"}
     };
 
     string[,] palavrasDificil = new string[,]
