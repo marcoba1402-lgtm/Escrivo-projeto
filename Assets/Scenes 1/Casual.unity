@@ -468,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024319, y: -311.43}
+  m_AnchoredPosition: {x: -0.000024319, y: -337}
   m_SizeDelta: {x: 508.9265, y: 156.9987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571148844
@@ -606,8 +606,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.975, y: -91}
-  m_SizeDelta: {x: 706.4219, y: 437.1408}
+  m_AnchoredPosition: {x: 2.0849, y: -109.88}
+  m_SizeDelta: {x: 623.04, y: 437.1408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769699284
 MonoBehaviour:
@@ -632,9 +632,8 @@ MonoBehaviour:
   m_text: "Teste suas habilidades Individualmente e tente conseguir  muitos pontos
     \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
-  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -658,13 +657,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 49.2
+  m_fontSizeBase: 49.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1815,8 +1814,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00017166, y: -87.14003}
-  m_SizeDelta: {x: 751.96, y: 241.7113}
+  m_AnchoredPosition: {x: 0.00017166, y: -109.87697}
+  m_SizeDelta: {x: 751.96, y: 337.7121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124004824
 MonoBehaviour:
