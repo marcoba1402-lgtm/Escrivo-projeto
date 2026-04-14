@@ -509,9 +509,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "N\xE3o precisa usar acento nem \xC7\nEx: cora\xE7\xE3o = coracao\nDescubra
-    a palavra secreta!\nVoc\xEA tem 3 vidas\nCada erro perde uma vida.\nA cada erro,
-    voc\xEA recebe uma dica.\nA cada rodada:\n- Muda a letra\n- Muda o tema\nAperta
-    em \"Continuar pelo celular\"\nBoa sorte!"
+    a palavra secreta!\nVoc\xEA tem 3 vidas\nCada erro perde uma vida.\nClique duas
+    vezes para enviar\nA cada erro, voc\xEA recebe uma dica.\nA cada rodada:\n- Muda
+    a letra\n- Muda o tema\nAperta em \"Continuar pelo celular\"\nBoa sorte!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.95
+  m_fontSize: 62.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -462,8 +462,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jogar Novamente
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
+  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1517,8 +1518,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Voltar para temas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d77e7276e07c2954b9f55a482c6d9f9f, type: 2}
+  m_sharedMaterial: {fileID: -7653332705859841557, guid: d77e7276e07c2954b9f55a482c6d9f9f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

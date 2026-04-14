@@ -31,12 +31,12 @@ public class Gameplay : MonoBehaviour
     string[] dicasAtuais;
 
     bool jogoAtivo = false;
-    // Método para ser chamado pelo botão da UI
+
     public void IrParaTelaCasual()
     {
-        // Certifique-se de que o nome da cena no Build Settings seja exatamente "Casual"
         SceneManager.LoadScene("Casual");
     }
+
     void Start()
     {
         string dificuldade = PlayerPrefs.GetString("dificuldade", "facil");
@@ -66,6 +66,9 @@ public class Gameplay : MonoBehaviour
 
         textTentativas.text = "Vidas: " + vidas;
         textDica.text = "";
+
+        // LED VERDE ao iniciar cada rodada
+        controlesCenaDois.Enviar("INICIO\n");
 
         string[] letras = {
             "A","B","C","D","E","F","G","H","I","J","K","L","M",
@@ -120,9 +123,6 @@ public class Gameplay : MonoBehaviour
         textDica.text = texto;
     }
 
-    // =============================================
-    // ARDUINO chama este método enviando a resposta
-    // =============================================
     public void PalavraVinda(string palavraVinda)
     {
         if (!jogoAtivo) return;
@@ -132,7 +132,7 @@ public class Gameplay : MonoBehaviour
 
         if (resposta == palavraCorreta)
         {
-            // ----- ACERTOU -----
+            // ACERTOU
             pontuacao += 100;
             textPontuacao.text = "Pontos: " + pontuacao;
 
@@ -156,7 +156,7 @@ public class Gameplay : MonoBehaviour
         }
         else
         {
-            // ----- ERROU -----
+            // ERROU
             if (audioSource != null && somErro != null)
                 audioSource.PlayOneShot(somErro);
 
@@ -355,8 +355,8 @@ public class Gameplay : MonoBehaviour
         {"B","Futebol","BOLA","redonda","chutada no campo","tem 32 gomos"},
         {"B","Cozinha","BANHA","gordura de porco","usada para fritar","deixa a comida gostosa"},
         {"C","Religiao","CAPELA","pequena igreja","tem sino","lugar de oracao"},
-        {"C","Campo","CANDELABRO","comida de gado","cresce no pasto","verde e alto"},
-        {"C","Cozinha","CALIFORNIA","panela grande","cozinha muito de uma vez","tem duas alcas"},
+        {"C","Obejeto","CANDELABRO","Múltiplos Braços/Hastes",": Iluminação de ambientes antes da eletricidade","Segurar velas e decorar mesas ou salões."},
+        {"C","Lugar","CALIFORNIA","Hollywood","Estado Dourado","Sacramento é a capital"},
         {"D","Casa","DESPERTADOR","acorda de manha","toca alto","tem ponteiros"},
         {"D","Cozinha","DOCE DE LEITE","marrom e cremoso","feito com leite e acucar","passa no pao"},
         {"D","Objeto","DENTADURA","Coloca na agua","Se usa escova de dente","pode ser removida"},
