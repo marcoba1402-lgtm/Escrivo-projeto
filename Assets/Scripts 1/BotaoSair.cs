@@ -99,6 +99,6 @@ public class BotaoSair : MonoBehaviour
             logoCanvasGroup.alpha = 1;
         }
         Debug.Log("Carregando cena Temas...");
-        SceneManager.LoadScene("Temas");
+        SceneManager.LoadScene("Tut Inicio");
     }
 }
